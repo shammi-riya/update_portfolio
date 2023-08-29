@@ -1,10 +1,17 @@
-
+import resumi from '../assets/Resumi of sahmmi.pdf'
 
 import { FiFacebook, FiGithub, FiLinkedin } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
 
 const Bannar = () => {
+  const handleDownload = () => {
+    const downloadLink = document.createElement('a');
+    downloadLink.href = resumi;
+    downloadLink.download = 'my_resume.pdf';
+    downloadLink.click();
+  };
+
 
   return (
     <div className="-z-30 mt-10 flex justify-center items-center h-[89vh] py-4">
@@ -35,7 +42,8 @@ const Bannar = () => {
             <div>
               <div className='flex gap-2 py-3'>
                 <button className="py-3 hover:bg-white duration-200 hover:text-red-600 font-semibold text-xl rounded-3xl px-8 border-2 border-white bg-transparent">Hire me</button>
-                <button className="py-3 hover:bg-white duration-200 hover:text-red-600 font-semibold text-xl rounded-3xl px-8 border-2 border-white bg-transparent">Dowenload Resumi</button>
+                <button onClick={handleDownload}
+                className="py-3 hover:bg-white duration-200 hover:text-red-600 font-semibold text-xl rounded-3xl px-8 border-2 border-white bg-transparent">Dowenload Resumi</button>
               </div>
               <div className='flex justify-center items-center'>
                 <div>
