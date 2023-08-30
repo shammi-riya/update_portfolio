@@ -2,7 +2,7 @@
 
 const Sectiontitle = ({ title, subtitle }) => {
     return (
-        <div className='flex justify-center items-center text-center'>
+        <div className='flex text-[#f4f5f6]  justify-center items-center text-center'>
             <div>
                 <h5 className='text-xl font-semibold'>{subtitle}</h5>
                 <div className='flex justify-center gap-3 items-center'>

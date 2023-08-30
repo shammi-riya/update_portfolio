@@ -10,7 +10,7 @@ import Header from "../Page/Shared/Header";
 
 const Main = () => {
     return (
-        <div className="bg-[#c6d2da] ">
+        <div className="bg-[#212428] ">
             <Header></Header>
             <div className="max-w-7xl mx-auto">
 

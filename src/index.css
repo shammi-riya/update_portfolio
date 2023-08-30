@@ -2,30 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Your other CSS rules */
+
 .card-image-container {
-    position: relative;
-  }
+  position: relative;
+  overflow: hidden; /* Ensure the container hides overflowing content */
+}
+
+.card-image-scroll {
+  transition: transform 1s ease-in-out;
+}
+
+.card-image-container:hover .card-image-scroll {
+  transform: translateY(-65%);
+}
+
+/* Your other CSS rules */
+
   
-  .card-image-scroll {
-    transition: transform 1s ease-in-out;
-  }
-  
-  .card-image-container:hover .card-image-scroll {
-    transform: translateY(-60%);
-  }
-  
-  .active-btn {
-    @apply text-[#FFDB70] bg-[#121212] border-t-2 border-t-orange-300 rounded-none hover:text-[#FFDB70];
-  }
-  
-  .idle-btn {
-    @apply text-gray-300 hover:text-[#FFDB70];
-  }
-  
-  .title {
-    @apply text-[#FFDB70] text-4xl font-bold uppercase;
-  }
-  
-  .skill-text {
-    @apply bg-gray-500 text-white p-2 rounded-md me-2;
-  }

@@ -5,7 +5,8 @@ import { DiJavascript1 } from "react-icons/di";
 import { SiMongodb, SiExpress, SiFirebase } from "react-icons/si";
 const Skill = () => {
     return (
-        <div className=" py-20">
+        <div id='skill'
+        className=" py-28">
             <div>
                 <Sectiontitle
                     subtitle='FEATURE'
