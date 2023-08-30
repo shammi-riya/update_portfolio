@@ -26,7 +26,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className={`${scrolling?" fixed transition-all top-0 duration-200 left-0 right-0 w-100 z-50 bg-white shadow-3xl text-[#f4f5f6]": ''}`}>
+    <div className={`${scrolling?" fixed transition-all top-0 duration-200 left-0 right-0 w-100 z-50 bg-[#f4f5f6] shadow-3xl text-[#f4f5f6]": ''}`}>
       <style>
         {`@media only screen and (min-width: 768px) {
           .parent:hover .child {

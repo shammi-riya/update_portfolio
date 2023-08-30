@@ -7,7 +7,7 @@ const ProjectModal = ({ project, onClose }) => {
 
     return (
         <div className="relative ">
-            <div className='fixed top-24 bottom-5 h-[80vh] rounded-xl lg:h-[85vh] bg-[#27272e] text-[#f4f5f6] left-0 right-0 w-full lg:px-0 px-5 flex items-center justify-center shadow-2xl z-50 lg:max-w-7xl mx-auto'>
+            <div className='fixed top-24 bottom-5 h-[80vh] rounded-xl lg:h-[85vh] bg-gray-600 text-[#f4f5f6] left-0 right-0 w-full lg:px-0 px-5 flex items-center justify-center shadow-2xl z-50 lg:max-w-7xl mx-auto'>
                 <div className="lg:max-w-5xl w-full h-[80vh] lg:h-[80vh] rounded overflow-hidden">
                     <div className='card-image-container h-[60%] overflow-hidden'>
                         <div className='card-image-scroll '>
