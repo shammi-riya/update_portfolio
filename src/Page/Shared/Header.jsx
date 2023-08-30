@@ -46,7 +46,7 @@ const Header = () => {
       </style>
       <nav className='flex lg:px-12 py-4 px-4 shadow-2xl items-center relative  z-40'>
         <div className={`${scrolling? 'text-[#ff014f]':' text-[#f4f5f6]'} font-bold  md:py-0 text-4xl`}>{'<'}Shammi{'/>'}</div>
-        <ul className={`md:px-2 ${scrolling? 'text-[#ff014f]' : 'text-[#f4f5f6] '}  font-semibold lg:bg-transparent bg-gray-600 lg:py-2 py-4  text-[#f4f5f6] lg:shadow-none shadow-xl text-xl ml-auto md:flex md:space-x-2 absolute md:relative top-full left-0 right-0 ${open ? 'block' : 'hidden md:block'}`}>
+        <ul className={`md:px-2 ${scrolling? 'text-[#ff014f]' : 'text-[#f4f5f6] '}  font-semibold lg:bg-transparent bg-gray-600 lg:py-0 py-4  text-[#f4f5f6] lg:shadow-none shadow-xl text-xl ml-auto md:flex md:space-x-2 absolute md:relative top-full left-0 right-0 ${open ? 'block' : 'hidden md:block'}`}>
           <li>
             <a href="#" className="flex md:inline-flex rounded-md p-3 px-5 items-center hover:bg-[#f4f5f6] hover:text-[#ff014f]">
               <span>Home</span>
@@ -68,15 +68,11 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="#pojects" className="flex md:inline-flex rounded-md p-3 px-5  items-center hover:bg-[#f4f5f6] hover:text-[#ff014f]">
+            <a href="#contuct" className="flex md:inline-flex rounded-md p-3 px-5  items-center hover:bg-[#f4f5f6] hover:text-[#ff014f]">
               <span>Contuct</span>
             </a>
           </li>
-          <li>
-            <a href="#contuct" className="flex md:inline-flex rounded-md p-3 px-5  items-center hover:bg-[#f4f5f6] hover:text-[#ff014f]">
-              <span>pojects</span>
-            </a>
-          </li>
+          
         </ul>
         <div onClick={handleToggle} className="ml-auto md:hidden text-[#ff014f] font-semibold text-3xl cursor-pointer">
           {

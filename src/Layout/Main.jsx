@@ -6,6 +6,7 @@ import Footer from "../Components/Footer";
 import Skill from "../Components/Skill";
 import Pojects from "../Components/pojects";
 import Header from "../Page/Shared/Header";
+import ScrollTop from "../Page/Shared/ScrollTop ";
 
 
 const Main = () => {
@@ -25,6 +26,7 @@ const Main = () => {
             </div>
 
             <Footer></Footer>
+            <ScrollTop></ScrollTop>
 
         </div>
     );

@@ -18,7 +18,7 @@ const Bannar = () => {
       <div className='lg:flex  text-center gap-10 justify-center items-center md:px-10 px-5 lg:px-20'>
         <div className="text-[#f4f5f6] space-y-2  w-100">
           <h2 className="text-xl font-bold">Welcome To My Word</h2>
-          <h4 className="lg:text-7xl md:text-4xl">Hi,<span className='text-[#ff014f]'> I am  Shammi Akter</span></h4>
+          <h4 className="lg:text-7xl font-bold md:text-4xl">Hi,<span className='text-[#ff014f]'> I am  Shammi Akter</span></h4>
           {
             <TypeAnimation
               sequence={[
@@ -49,7 +49,7 @@ const Bannar = () => {
                 <div>
                   <h4 className='text-xl py-3'>Find With Me</h4>
 
-                  <div className='flex gap-5 shadow-2xl'>
+                  <div className='flex gap-5 m-2 '>
 
                     <button className='p-4 text-xl duration-200 font-bold bg-[#212428ce] rounded-md shadow-2xl hover:bg-slate-300 hover:scale-110 transform hover:rotate-3'>
                       <Link to='https://www.facebook.com/profile.php?id=100069790200597'> <FiFacebook /></Link>

@@ -33,11 +33,12 @@ const Contuct = () => {
     <div id='contuct'
       className='py-20 lg:px-0 px-5'>
       <Sectiontitle
-        title='Contuct Us'
+      subtitle='contuct'
+        title='Contact With Me'
       >
 
       </Sectiontitle>
-      <section className=" bg-transparent py-8 text-[#f4f5f6]">
+      <section className=" bg-transparent py-12 text-[#f4f5f6]">
         <div className="grid  grid-cols-1  mx-auto  md:grid-cols-2 md:divide-x">
           <div className="py-6 md:py-0 px-2">
             <h1 className="text-5xl font-bold">Get in <span className='text-[#ff014f]'>touch</span></h1>
